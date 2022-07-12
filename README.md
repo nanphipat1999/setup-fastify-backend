@@ -5,7 +5,7 @@
 ## before start development
 
 _requires_
-- [https://taskfile.dev/](task) : `running @scope script just 1 command`
+- [task](https://taskfile.dev/) : `running @scope script just 1 command`
 
 ```bash
 # running with task
