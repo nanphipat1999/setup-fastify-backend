@@ -1,0 +1,18 @@
+{
+    "test": ".*.ts$",
+    "jsc": {
+        "parser": {
+            "syntax": "typescript",
+            "tsx": false,
+            "decorators": false,
+            "dynamicImport": false
+        },
+        "transform": null,
+        "type": "commonjs",
+        "target": "es2017",
+        "loose": true,
+        "externalHelpers": false,
+        // Requires v1.2.50 or upper and requires target to be es2016 or upper.
+        "keepClassNames": false
+    }
+}

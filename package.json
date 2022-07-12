@@ -1,0 +1,9 @@
+{
+  "name": "setup-fastify-backend",
+  "version": "1.0.0",
+  "description": "fastify backend monorepo",
+  "keywords": [],
+  "author": "worasitipon",
+  "license": "ISC",
+  "private": true
+}

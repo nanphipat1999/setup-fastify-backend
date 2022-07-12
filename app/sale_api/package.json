@@ -1,0 +1,39 @@
+{
+  "name": "@app/sale_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --passWithNoTests --logHeapUsage",
+    "compile:source": "tsc -b tsconfig-onlyts.json",
+    "compile:test": "tsc -b tsconfig-spec.json",
+    "build": "pnpm compile:source && pnpm compile:test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@kha-devspace/eslint-config": "^1.0.1",
+    "@kha-devspace/tsconfig": "^1.0.0",
+    "@swc/core": "^1.2.212",
+    "@swc/jest": "^0.2.21",
+    "@types/jest": "^28.1.4",
+    "@types/node": "^16",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^28.1.2",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "fastify": "^4.2.0"
+  },
+  "files": [
+    "lib"
+  ]
+}
