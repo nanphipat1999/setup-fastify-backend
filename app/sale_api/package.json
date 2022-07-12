@@ -8,7 +8,7 @@
     "test": "jest --passWithNoTests --logHeapUsage",
     "compile:source": "tsc -b tsconfig-onlyts.json",
     "compile:test": "tsc -b tsconfig-spec.json",
-    "build": "pnpm compile:source && pnpm compile:test"
+    "build": "pnpm compile:source && pnpm compile:test && pnpm test"
   },
   "keywords": [],
   "author": "",
