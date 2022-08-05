@@ -1,3 +1,4 @@
 packages:
   - 'app/**'
   - 'services/**'
+  - 'test_e2e/**'
